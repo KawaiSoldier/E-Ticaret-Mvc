@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Mvc", "App.Mvc\App.Mvc.csproj", "{459C1A99-303A-4287-A0BC-DA1E5A90528A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "e-Ticaret", "e-Ticaret\e-Ticaret.csproj", "{0170EEEA-6ED6-4905-B675-DA0DD10A1A84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "e-Ticaret", "e-Ticaret\e-Ticaret.csproj", "{0170EEEA-6ED6-4905-B675-DA0DD10A1A84}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "Admin\Admin.csproj", "{83DDA6C5-6013-4545-A23E-BF17B67C16D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Admin", "Admin\Admin.csproj", "{83DDA6C5-6013-4545-A23E-BF17B67C16D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{459C1A99-303A-4287-A0BC-DA1E5A90528A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{459C1A99-303A-4287-A0BC-DA1E5A90528A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{459C1A99-303A-4287-A0BC-DA1E5A90528A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{459C1A99-303A-4287-A0BC-DA1E5A90528A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0170EEEA-6ED6-4905-B675-DA0DD10A1A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0170EEEA-6ED6-4905-B675-DA0DD10A1A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0170EEEA-6ED6-4905-B675-DA0DD10A1A84}.Release|Any CPU.ActiveCfg = Release|Any CPU

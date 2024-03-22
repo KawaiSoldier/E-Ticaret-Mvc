@@ -12,7 +12,7 @@ namespace e_Ticaret.Controllers
         [Route("/order/{id}/details")]
         public IActionResult Details()
         {
-            return View();
+            return Ok();
         }
     }
 }

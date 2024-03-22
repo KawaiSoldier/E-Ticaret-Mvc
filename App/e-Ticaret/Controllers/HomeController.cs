@@ -2,7 +2,7 @@ using e_Ticaret.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace e_Ticaret.Controllers
+namespace App.Controllers
 {
     public class HomeController : Controller
     {
@@ -14,21 +14,21 @@ namespace e_Ticaret.Controllers
         [Route("/about-us")]
         public IActionResult AboutUs()
         {
-            return View();
+            return Ok();
         }
         public IActionResult Contact()
         {
-            return View();
+            return Ok();
         }
         public IActionResult Listing()
         {
-            return View();
+            return Ok();
         }
 
         [Route("/product/{categoryName}-{title}-{id}/details")]
         public IActionResult ProductDetail()
         {
-            return View();
+            return Ok();
         }
 
      

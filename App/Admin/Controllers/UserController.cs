@@ -6,11 +6,11 @@ namespace Admin.Controllers
     {
         public IActionResult List()
         {
-            return View();
+            return Ok();
         }
         public IActionResult Approve()
         {
-            return View();
+            return Ok();
         }
 
     }

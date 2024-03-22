@@ -6,7 +6,7 @@ namespace Admin.Controllers
     {
         public IActionResult Delete()
         {
-            return View();
+            return Ok();
         }
     }
 }

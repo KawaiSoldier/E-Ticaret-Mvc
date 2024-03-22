@@ -6,18 +6,18 @@ namespace Admin.Controllers
     {
         public IActionResult Create()
         {
-            return View();
+            return Ok();
         }
 
         [Route("/category/{id}/edit")]
         public IActionResult Edit()
         {
-            return View();
+            return Ok();
         }
 
         public IActionResult Delete()
         {
-            return View();
+            return Ok();
         }
     }
 }
